@@ -20,7 +20,8 @@
 // #define EZTIME_MAX_DEBUGLEVEL_INFO
 
 // Cache mechanism, either EEPROM or NVS, not both. (See README)
-#define EZTIME_CACHE_EEPROM
+// Platform.IO doesn't compile when EEPROM is a dependency. Weird. But can't figure out how to workaround it.
+// #define EZTIME_CACHE_EEPROM
 // #define EZTIME_CACHE_NVS
 
 // Uncomment if you want to access ezTime functions only after "ezt."
